@@ -24,14 +24,6 @@ function App() {
           <Route path='contact' element={<Contact />} />
 
         </Routes>
-
-        {/* <Link to="/">Home</Link> 
-      <Link to="/navbar">Navbar</Link>
-      <Link to="/Hero">Home</Link>
-
-      <Link to="/About">About</Link>
-    <Link to ="/Collection">Collection</Link>  
-    <Link to="/Contact">Contact</Link> */}
       </BrowserRouter>
     </>
   )
