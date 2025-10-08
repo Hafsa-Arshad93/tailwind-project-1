@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
     return (
         <div>
-   <section className="text-gray-600 bg-yellow-600 body-font relative">
+   <section className="text-gray-600 bg-yellow-600 body-font relative border-15 border-dashed border-black">
   <div className="container px-5 py-8 mx-auto flex flex-wrap md:flex-nowrap gap-6">
     
     {/* Map Section */}

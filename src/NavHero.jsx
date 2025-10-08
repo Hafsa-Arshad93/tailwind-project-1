@@ -4,11 +4,11 @@ import backgroundImage from './assets/bgimage.jpg';
 
 function NavHero() {
 
-
     return (
-        <>
-            <header className="text-gray-400 bg-yellow-600 body-font">
-                <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        
+        <div className='border-15 border-dashed border-yellow-600'>
+            <header className="text-gray-400 bg-yellow-600 body-font ">
+                <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
                     <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
                         <img
                             src={tehzeebLogo}
@@ -60,7 +60,7 @@ function NavHero() {
            </div>
          </div>
        </section>
-        </>
+        </div>
     )
 }
 

@@ -9,7 +9,7 @@ import galleryImage6 from "./assets/galleryimg6.jpg";
 function Collection() {
 
   return (
-< section className="text-white bg-yellow-600 body-font">
+< section className="text-white bg-yellow-600 body-font border-15 border-solid border-black">
   <div className="container px-5 py-8 mx-auto flex flex-wrap">
     <div className="flex w-full mb-20 flex-wrap">
       <h1 className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-basesm:text-3xl text-2xl font-medium title-font text-white text-4xl lg:w-1/3 lg:mb-0 mb-4">
