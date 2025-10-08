@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Routes>
 
-          <Route path='home' element={<NavHero />} />
+          <Route path='' element={<NavHero />} />
           <Route path='about' element={<About />} />
           <Route path='Collection' element={<Collection />} />
           <Route path='buyproduct' element={<BuyProduct />} />
