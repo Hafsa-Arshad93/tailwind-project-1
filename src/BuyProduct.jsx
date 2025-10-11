@@ -13,7 +13,7 @@ import wood8 from "./assets/wood8.jpg";
  function BuyProduct() {
   return (
     <div>
-    <section className="text-gray-600 bg-white  body-font border-6 border-dashed border-yellow-900">
+    <section className="text-gray-600 bg-white  body-font border-6 border-dashed border-yellow-950">
   <div className="container px-3 py-8 mx-auto">
   {/*  Centered Heading */}
   <h2 className="text-3xl font-semibold text-center text-yellow-700 mb-10">

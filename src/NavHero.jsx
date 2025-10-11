@@ -1,34 +1,45 @@
 import React from 'react';
 import tehzeebLogo from './assets/tehzeeb.logo.jpg';
 import backgroundImage from './assets/bgimage.jpg';
+import { Link } from 'react-router-dom';
 
 function NavHero() {
 
   return (
 
     <div className='border-15 border-dashed border-yellow-600'>
-      <header className="text-gray-400 bg-yellow-600 body-font ">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
-          <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+      <header className="text-gray-400 bg-yellow-600 body-font">
+        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <Link to="/home"className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <img
               src={tehzeebLogo}
               alt="Tehzeeb Logo"
-              className="w-16 h-12 sm:w-20 sm:h-20 md:w-24 md:h-24 border-2 border-white rounded-none object-cover full"
-            />
-
+              className="w-16 h-12 sm:w-20 sm:h-20 md:w-24 md:h-24 border-2 border-white rounded-none object-cover full"/>
             <span className="ml-3 text-2xl">Tehzeeb Furniture & Home Decor</span>
-          </a>
+          </Link>
+
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 text-yellow-900 text-2xl hover:text-yellow-500">Home</a>
-            <a className="mr-5 text-yellow-900 text-2xl hover:text-yellow-500"> About Us</a>
-            <a className="mr-5 text-yellow-900 text-2xl hover:text-yellow-500"> Collections</a>
-            <a className="mr-5 text-yellow-900 text-2xl hover:text-yellow-500">  Buy Products</a>
-            <a className="mr-5 text-yellow-900 text-2xl hover:text-yellow-500"> Contact Us</a>
-
+            <Link to="/home" className="mr-5 text-yellow-900 text-2xl hover:text-yellow-500">
+              Home
+            </Link>
+            <Link to="/About"className="mr-5 text-yellow-900 text-2xl hover:text-yellow-500" >
+              About Us
+            </Link>
+            <Link to="/Collection" className="mr-5 text-yellow-900 text-2xl hover:text-yellow-500">
+              Collections
+            </Link>
+            <Link
+              to="/BuyProduct"
+              className="mr-5 text-yellow-900 text-2xl hover:text-yellow-500" >
+              Buy Products
+            </Link>
+            <Link to="/Contact" className="mr-5 text-yellow-900 text-2xl hover:text-yellow-500">
+              Contact Us
+            </Link>
           </nav>
-
         </div>
       </header>
+
 
       <section className="text-gray-400 bg-white-300 body-font">
         <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
